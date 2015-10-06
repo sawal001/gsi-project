@@ -21,6 +21,12 @@ h2 {
 	line-height: 20px;
   text-align: center;
 }
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .left-box {
   float: left;
   width: 100px;
