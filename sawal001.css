@@ -2,8 +2,24 @@ body {
 font-family: 'Proxima N W01 Reg',Arial;
 background-image: url(Images/rocks.jpg);
 }
+
+form {
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+form > label {
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .container {
-  margin-top:100px;
+  margin-top:50px;
   margin-left:90px;
   padding: 10px;
   background-color: navy;
