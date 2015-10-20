@@ -1,24 +1,21 @@
 body {
 font-family: 'Proxima N W01 Reg',Arial;
-background-color: gray;
 }
 .container {
   margin-top:100px;
   margin-left:90px;
-  padding: 0px;
-  border: 5px;
-  border-style: solid;
-  border-color: blue;
+  padding: 10px;
+  background-color: navy;
   float:left;
   font-size: 30px;
+  background: rgba(0, 0, 128, 0.5);
+  color: white;
 }
 .nav {
-  float:right;
-  border: 5px;
-  border-style: solid;
-  border-color: green;
-  line-height: 36px;
-  padding: 0;
+  position: absolute;
+  margin-left: 85%;
+  line-height: 45px;
+  padding: 10px;
   margin-top: 0px;
   font-size: 16px;
   width: 180px;
@@ -28,57 +25,24 @@ background-color: gray;
   list-style-type: none;
   text-transform: uppercase;
   background-color: navy;
-  background: rgba(0, 0, 128, 0.5);
+  background: rgba(0, 0, 128, 0.75);
 }
-.first {
+.sands {
+line-height: 20px;
+}
+.nav a {
   font-style: normal;
   list-style-type: none;
   font-variant: normal;
   color:white;
   text-decoration: none;
 }
-.second {
-    font-style: normal;
-    list-style-type: none;
-    font-variant: normal;
-    color:white;
-    text-decoration: none;
+
+.nav a:hover {
+color:aqua;
 }
-.third {
-  font-style: normal;
-  list-style-type: none;
-  font-variant: normal;
-  color:white;
-  text-decoration: none;
-}
-.fourth {
-  font-style: normal;
-  list-style-type: none;
-  font-variant: normal;
-  color:white;
-  text-decoration: none;
-}
-.fifth{
-  font-style: normal;
-  list-style-type: none;
-  font-variant: normal;
-  color:white;
-  text-decoration: none;
-}
-.sixth {
-  font-style: normal;
-  list-style-type: none;
-  font-variant: normal;
-  color:white;
-  text-decoration: none;
-}
-.seventh {
-  font-style: normal;
-  list-style-type: none;
-  font-variant: normal;
-  color:white;
-  text-decoration: none;
-}
+
+
 .testamonial {
   clear:both;
   border: 5px;
@@ -92,6 +56,8 @@ background-color: gray;
   border-color: black;
   border-style:solid;
   border: 5px;
+  position:fixed;
+  bottom: 0;
 }
 
 .contact {
