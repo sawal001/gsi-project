@@ -18,6 +18,10 @@ input {
   margin-bottom: 20px;
 }
 
+.thanks h1 {
+  font-size: 50px;
+}
+
 .container {
   margin-top:50px;
   margin-left:90px;
