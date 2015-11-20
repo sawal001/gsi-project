@@ -1,148 +1,146 @@
-body {
-font-family: 'Proxima N W01 Reg',Arial;
-margin: 0;
+html {
+height: 100%;
 }
-
+.home {
+  background: url(Images/homepage.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+body {
+  color: white;
+  font-family: 'Proxima N W01 Reg',Arial;
+  height: 100%;
+  margin: 0;
+}
 .main {
-  margin-top:50px;
-  margin-left:90px;
-  padding: 10px;
-  background-color: navy;
+  background: rgba(0, 0, 128, 0.5);
+  color: white;
+  display: inline-block;
   float:left;
   font-size: 30px;
-  background: rgba(0, 0, 128, 0.5);
-  color: white;
+  margin-top:5%;
+  margin-left:8%;
   margin-right: 0;
   margin-bottom: 0;
-}
-.nav {
-  position:absolute;
-  line-height: 45px;
-  padding-left: 10px;
-  padding-top:2%;
-  margin-top: 0px;
-  font-size: 16px;
-  width: 180px;
-  height: 92%;
-  display: inline-block;
-  list-style-type: none;
-  text-transform: uppercase;
-  background-color: navy;
-  background: rgba(0, 0, 128, 0.75);
-  float: left;
-  margin-left: 38.75%;
-}
-.sands {
-line-height: 20px;
-}
-.nav a {
-  font-style: normal;
-  list-style-type: none;
-  font-variant: normal;
-  color:white;
-  text-decoration: none;
-}
-
-.nav a:hover {
-color:aqua;
-}
-
-.footer {
-  clear:both;
-  border-color: black;
-  border-style:solid;
-  border: 5px;
-  position: absolute;
-  bottom: 0;
-  height: 75px;
-  background-color:black;
-  width: 100%;
-  margin: 0;
-  color:white;
-  padding-left: 5%;
-
-}
-
-.contact {
-  float:left;
-}
-
-.copywrite {
-  float:right;
-}
-/**STYLING FOR PAGES ON NAV BAR**/
-
-.container {
-  display: inline-block;
-  margin-top:5%;
-  margin-left:2%;
   padding: 10px;
-  background-color: navy;
-  float:left;
-  font-size: 12px;
-  background: rgba(0, 0, 128, 0.5);
-  color: white;
-  width: 750px;
-  height: 400px;
+  width: 55%;
 }
 h2 {
-font-size: 18px;
+  font-size:25px;
 }
-html {
-  background: url(Images/homepage.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.about {
-    background: url(../images/glasstower.jpg);
-    max-height: 100%;
-    background-repeat: no-repeat;
-  }
-  .contact {
-      background: url(../images/harrisburg-skyline.jpg);
-      max-height: 100%;
-      background-repeat: no-repeat;
-    }
-    .headquarters {
-    display: inline-block;
-    float:left;
-    margin-left: 10%;
-    margin-right: 5%;
-    }
-    .mid-atlantic {
-    display: inline-block;
-    float:left;
-    }
-    .south-east {
-      clear: both;
-    display: inline-block;
-    float:left;
-    margin-left: 10%;
-    }
 
-.headersands {
-  background: url(../images/above-ground-storage.jpg);
-  max-height: 100%;
-  background-repeat: no-repeat;
+/*NAVIGATION BAR STYLES*/
+nav {
+  background: rgba(0, 0, 128, 0.75);
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  height: 100%;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+
 }
-.lilnav{
-font-size: 11px;
-line-height: 40px;
-margin-left: 15%;
-padding-top: 15px;
-padding-bottom: 15px;
+ul {
+list-style-type: none;
+padding: 0;
+padding-left: 10%;
+
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+.fullnav a:hover {
+  color: #00FFAA;
+
+}
+
+.lilnav {
+  font-size: 14px;
+
 }
 .lilnav a:hover {
-color:blue;
+  color: #BDFCC9;
+
 }
 
-.candp {
-line-height: 15px;
+.first {
+  padding-bottom: 10%;
+  padding-top: 15%;
 }
 
-.maintestimonials {
-    background: url(../images/gray-tankII.jpg);
-    max-height: 100%;
-    background-repeat: no-repeat;
+.second {
+  padding-bottom: 10%;
+}
 
+.third {
+  padding-bottom: 10%;
+}
+
+.threeA {
+  padding-bottom:8%;
+}
+
+.threeB {
+  padding-bottom: 8%;
+}
+.threeC {
+  padding-bottom: 12%;
+
+}
+
+.fourth {
+  padding-bottom: 10%;
+}
+
+.fifth {
+  padding-bottom: 10%;
+}
+footer {
+  background-color: black;
+  bottom: 0;
+  display: block;
+  float: left;
+  padding-left: 5%;
+  position: fixed;
+  width:100%;
+}
+.about {
+  background: url(../images/glasstower.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.contact{
+  background: url(../images/harrisburg-skyline.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.testimonials {
+  background: url(../images/gray-tankII.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.servicesandsolutions {
+  background: url(../images/above-ground-storage.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+p {
+font-size: 16px;
+
+}
+
+.headquarters{
+float:left;
+padding-right: 10%;
+}
+
+.mid-atlantic {
+  float:left;
+}
+
+.south-east {
+  float: left;
 }
