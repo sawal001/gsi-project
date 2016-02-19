@@ -1,10 +1,9 @@
+/**make the margins on the opaque backgrounds--make them the same**/
+/**darken the picture on the services and solutions pages**/
+
+/**GENERAL**/
 html {
 height: 100%;
-}
-.home {
-  background: url(Images/homepage.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
 body {
   color: white;
@@ -13,7 +12,7 @@ body {
   margin: 0;
 }
 .main {
-  background: rgba(0, 0, 128, 0.5);
+  background: rgba(0, 0, 0, 0.5); /*(0, 0, 128, 0.5);*/
   color: white;
   display: inline-block;
   float:left;
@@ -28,10 +27,17 @@ body {
 h2 {
   font-size:25px;
 }
+h4 {
+  font-size: 18px;
+  font-style:italic;
+}
+p {
+font-size: 16px;
+}
 
 /*NAVIGATION BAR STYLES*/
 nav {
-  background: rgba(0, 0, 128, 0.75);
+  background: rgba(0, 0, 0, 0.75);/*(0,0,128,.75)*/
   display: inline-block;
   float: right;
   font-size: 16px;
@@ -98,6 +104,8 @@ li a {
 .fifth {
   padding-bottom: 10%;
 }
+
+/** FOOTER **/
 footer {
   background-color: black;
   bottom: 0;
@@ -107,40 +115,76 @@ footer {
   position: fixed;
   width:100%;
 }
+/** HOME **/
+.home {
+  background: url(Images/pipeline.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+/** ABOUT **/
 .about {
-  background: url(../images/glasstower.jpg);
+  background: url(../images/aerialOilField.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+/** SERVICES AND SOLUTIONS **/
+.servicesandsolutions {
+  background: url(../images/nightImage.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/**TESTIMONIALS**/
+.testimonials {
+  background: url(../images/pipeline.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#opening {
+  float:left;
+}
+
+#johnArnold {
+  display:inline;
+}
+#chairman {
+  display:inline;
+}
+#jmaImage {
+  background: url(../images/JMA.jpg);
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  float: left;
+  height: 206.55px ;
+  margin-left: 10px;
+  margin-top: 10px;
+  width:  150.4px ;
+}
+#johnArnoldText {
+  float:left;
+  padding-left: 20px;
+  width: 550px;
+}
+#testBody {
+  clear:both;
+  display:inline-block;
+}
+.bold {
+  font-weight: bold;
+}
+/**CONTACT**/
 .contact{
   background: url(../images/harrisburg-skyline.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.testimonials {
-  background: url(../images/gray-tankII.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.servicesandsolutions {
-  background: url(../images/above-ground-storage.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-p {
-font-size: 16px;
-
-}
-
 .headquarters{
-float:left;
-padding-right: 10%;
+  float:left;
+  padding-right: 10%;
 }
-
 .mid-atlantic {
   float:left;
 }
-
 .south-east {
   float: left;
 }
